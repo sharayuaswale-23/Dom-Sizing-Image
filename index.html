@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Resize Example</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main-cont">
+        <h2 style="margin: 10px;">Sizing an Image</h2>
+        <p style="margin: 10px;">Increase the width of an image by clicking the plus button and decrease by clicking the Minus button. For every action, the image increases and decreases by 5px.</p>
+        <p id="message"></p>
+        <img id="image" src="https://tse2.mm.bing.net/th?id=OIP.q7hrrlJmYEnTavqubhP6fwHaE8&pid=Api&P=0&h=180" alt="Image" width="200" height="200">
+        <p id="sizeInfo">Width: 200px</p>
+        <div class="buttons">
+            <button id="increaseBtn" style="border-right: 1px solid black;">+</button>
+            <p style="background-color: white; padding: 10px; margin: 0px;">5px</p>
+            <button id="decreaseBtn" style="border-left: 1px solid black;">-</button>
+        </div>
+        <p id="message"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

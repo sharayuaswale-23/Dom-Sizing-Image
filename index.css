@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.main-cont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    border: 0.5px solid black;
+    padding: 5px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+}
+
+#message {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#sizeInfo {
+    margin-top: 10px;
+    font-size: 15px;
+}
